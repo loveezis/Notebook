@@ -1,5 +1,6 @@
 package project;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -30,7 +31,6 @@ class ob1{
 		 예시)
 		 총 평균 포인트는 : 0 원 입니다. 	 
 		*/
-	
 		Integer sum = 0;
 		int w = 0;
 		while(w < al.get(1).length) { //반복횟수 지정
@@ -39,7 +39,8 @@ class ob1{
 			
 			w++;
 		}
-		System.out.printf("총 평균 포인트는: "+sum / al.get(1).length+" point입니다");
+		DecimalFormat df = new DecimalFormat();
+		System.out.printf("총 평균 포인트는: "+df.format(sum / al.get(1).length)+" point입니다");
 		
 	}
 }
