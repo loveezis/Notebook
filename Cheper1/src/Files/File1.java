@@ -25,7 +25,7 @@ public class File1 {
 		
 		try {
 		
-		FileReader fr = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\message.txt");
+		FileReader fr = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\message.txt");
 		while(true) {
 			int m = fr.read();
 			System.out.println((char)m);

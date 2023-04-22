@@ -23,10 +23,10 @@ class Buffer {
 
 	public void dataView() throws Exception {
 
-		this.fr = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt");
+		this.fr = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt");
 		this.br = new BufferedReader(this.fr);
 		//갯수 확인하기위한 객체를 한번더 생성 (메모리에 저장된 데이터를 두번사용할수 없음)
-		this.fr2 = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt");
+		this.fr2 = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt");
 		LineNumberReader li = new LineNumberReader(this.fr2);
 		//새로운 객체 fr2 호출 (fr1 호출시 다음 공지내용이 출력안되고 라인갯수만출력됨) *중복사용안됨*
 		

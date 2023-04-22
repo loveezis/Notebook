@@ -38,7 +38,7 @@ class memory{
 			BufferedInputStream buff = new BufferedInputStream(ist);
 			byte fileSize[] = new byte[buff.available()];
 			
-			OutputStream ost = new FileOutputStream("D:\\sajin\\copy.jpg");
+			OutputStream ost = new FileOutputStream("C:\\sajin\\copy.jpg");
 			int imgs = buff.read(fileSize);
 			ost.write(fileSize,0,imgs);
 			

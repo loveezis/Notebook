@@ -34,15 +34,15 @@ class Filedata{
 	LinkedList<String> data2;
 	public void addFile() throws Exception {
 		
-		this.data = Files.readAllLines(Paths.get("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt"));
+		this.data = Files.readAllLines(Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt"));
 		System.out.println(data);	
-		this.data2 = new LinkedList<String>(Files.readAllLines(Paths.get("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt")));
+		this.data2 = new LinkedList<String>(Files.readAllLines(Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt")));
 		System.out.println(data2);
 		
 		//원시배열로 처리(byte단위)
 		//언어 패킷을 사용하지 못하고, 그룹이 따로 1차배열로만 처리됨
 		//단점 : byte는 메모리 할당이 많아짐
-		byte data3[] = Files.readAllBytes(Paths.get("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt"));
+		byte data3[] = Files.readAllBytes(Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt"));
 		System.out.println(new String(data3));
 		
 		

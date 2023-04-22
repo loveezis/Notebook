@@ -12,7 +12,7 @@ public class File13 {
 		// File("경로 및 파일명")
 		try {
 
-			File fi = new File("D:\\Project\\HomePC\\JavaStart\\src\\Files\\abc.txt");
+			File fi = new File("C:\\Project\\Notebook\\Cheper1\\src\\Files\\abc.txt");
 			if (fi.exists() == false) { // 해당 경로에 파일유무를 체크
 				fi.createNewFile();
 

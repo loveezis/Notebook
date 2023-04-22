@@ -27,7 +27,7 @@ class member {
 
 	public void client() throws Exception {
 		Um2 = new ArrayList<>();
-		fr = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\member.txt");
+		fr = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\member.txt");
 		sc = new Scanner(fr);
 
 		while (this.sc.hasNext()) { // 해당 문서가 true 문장이 있을때까지 출력시킨다는의미

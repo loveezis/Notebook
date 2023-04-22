@@ -9,7 +9,7 @@ public class File19 {
 	public static void main(String[] args) {
 		
 		try {
-			String url = "E:\\git_java\\javaproject\\project1\\src\\Files\\notice.txt";
+			String url = "C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt";
 			FileInputStream fs = new FileInputStream(url);
 			// 이미지, 동영상 //
 //			BufferedInputStream buff = new BufferedInputStream(fs);

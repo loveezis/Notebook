@@ -8,7 +8,7 @@ public class File3 {
 	public static void main(String[] args) {
 		
 		try {
-			FileReader reader = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\data.dat");
+			FileReader reader = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\data.dat");
 			System.out.println(reader.read());
 			
 			while(true) {

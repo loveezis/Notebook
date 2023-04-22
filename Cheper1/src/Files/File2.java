@@ -8,7 +8,7 @@ public class File2 {
 	public static void main(String[] args){
 		try {
 		FileReader fr = new FileReader(
-				"D:\\Project\\HomePC\\JavaStart\\src\\Files\\agree.txt");
+				"C:\\Project\\Notebook\\Cheper1\\src\\Files\\agree.txt");
 		//문서파일이 ANCI로 저장되어있을경우 문서 뒤에 명령어 Charset.forName("EUCKR") 입력 
 		//단, 출력하는 형태 언어셋만 바꾸는 명령어이고, 파일자체를 바꾸는건 불가능(직접바꿔야함)
 		System.out.println(fr.getEncoding()); //파일 인코딩 언어 확인 -UTF-8-

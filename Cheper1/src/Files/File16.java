@@ -27,14 +27,14 @@ public class File16 {
 		
 		try {
 			//사용자가 업로드 하는 이미지
-			InputStream is = new FileInputStream("D:\\sajin\\herin.jpg");
+			InputStream is = new FileInputStream("C:\\sajin\\herin.jpg");
 			
 			//사용자 이미지 크기를 계산후 파일을 읽어들이는 크기
 			byte img[] = new byte[is.available()/100];
 			//뒤에 있는 /100은 100%라고 생각하면 되고, 100%를 2프로씩 나눠서 다운받는다.
 			//100 = 2%씩
 			//10 = 20%씩
-			OutputStream os = new FileOutputStream("D:\\sajin\\herin2.jpg");
+			OutputStream os = new FileOutputStream("C:\\sajin\\herin2.jpg");
 			//원본파일 카피할 경로의 파일이름
 			int imgs = 0; //읽는 바이트 수
 			int check = 0; // %로 사용자에게 생성되는 상황을 보여주기 위한 변수

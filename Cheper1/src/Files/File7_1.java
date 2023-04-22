@@ -26,7 +26,7 @@ class database {
 
 	public void db() throws Exception {
 		// 경로(웹) - Servlet, Spring Java \경로
-		fr = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\member.txt");
+		fr = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\member.txt");
 		sc = new Scanner(fr);
 		ln = new ArrayList<>();
 		while (sc.hasNext()) {

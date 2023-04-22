@@ -21,7 +21,7 @@ class Notice{
 	Scanner sc;
 	FileReader fr;
 	public void view() throws Exception{
-		fr = new FileReader("D:\\Project\\HomePC\\JavaStart\\src\\Files\\notice.txt");
+		fr = new FileReader("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt");
 		sc = new Scanner(this.fr);
 		//해당 scanner에 파일 내용을 모두 적용시킴
 		//System.in : 직접입력

@@ -10,7 +10,7 @@ public class File4 {
 	public static void main(String[] args) {
 		String userdata[] = {"hong","kim","park","jang"};
 		try {
-		FileWriter fw = new FileWriter("D:\\Project\\HomePC\\JavaStart\\src\\Files\\message2.txt");
+		FileWriter fw = new FileWriter("C:\\Project\\Notebook\\Cheper1\\src\\Files\\message2.txt");
 		//FileWriter에 true를 붙이게 되면, 기존 입력된 내용을 유지하고 추가 데이터가 들어감
 		int w = 0;
 		do {

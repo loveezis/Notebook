@@ -20,7 +20,7 @@ class FileIn {
 	InputStream is;
 
 	public void fileload() throws Exception {
-		this.is = new FileInputStream("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt");
+		this.is = new FileInputStream("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt");
 //		System.out.println(is.available());
 		//available() : 파일의 용량 크기 체크 (byte 단위로만출력)
 	

@@ -25,7 +25,7 @@ class ask{
 		//true를 안쓰는 이유는 반복문 안에 적용시에만 true필요
 		try {
 			FileWriter fr = new FileWriter(
-					"D:\\Project\\HomePC\\JavaStart\\src\\Files\\user.txt");
+					"C:\\Project\\Notebook\\Cheper1\\src\\Files\\user.txt");
 		while(true) {
 			sc = new Scanner(System.in);
 			System.out.println("사용자 아이디를 입력하세요");

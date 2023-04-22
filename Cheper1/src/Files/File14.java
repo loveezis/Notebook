@@ -36,7 +36,7 @@ class loadfile{
 	OutputStream os = null;
 	public void code() throws Exception{
 		//신규로 문자를 적용할 경우 new byte를 새로 계산하여 적용해야함
-		this.f = new File("D:\\Project\\HomePC\\JavaStart\\src\\Files\\abc.txt");
+		this.f = new File("C:\\Project\\Notebook\\Cheper1\\src\\Files\\abc.txt");
 		this.is = System.in;  //사용자가 입력하는 문구
 		byte[] word = new byte[100];  //저장기록 용량
 		this.is.read(word); // 사용자가 입력하는 내용을 배열로 저장
