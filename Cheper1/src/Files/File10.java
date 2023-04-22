@@ -27,7 +27,7 @@ public class File10 {
 		}; 
 		try {
 			//read() 메소드를 호출하여 값을 리턴받음
-			System.out.println(is.read());
+			System.out.println(is.read()); //메서드 호출
 			is.close();
 		} catch (Exception e) {
 			

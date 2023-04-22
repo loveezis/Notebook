@@ -27,10 +27,10 @@ public class File17 {
 }
 class memory{
 	public void memoryImg() throws Exception {
+
 //		String file = "D:\\sajin\\herin.jpg";  //1메가이상  (나중에 대용량이미지로 바꿀것)
 		String file1 = "D:\\sajin\\herin.jpg"; //1메가 이하
 		InputStream ist = new FileInputStream(file1);
-		
 		if(ist.available() > 1048576) {
 			System.out.println("1mb이하의 이미지만 첨부하세요");
 		}

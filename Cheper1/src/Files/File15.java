@@ -10,14 +10,14 @@ public class File15 {
 		
 		try {
 			//파일 이동 기능
-//			Path data1 = Paths.get("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice.txt");
-//			Path data2 = Paths.get("D:\\Project\\HomePC\\JavaStart\\src\\Files\\Notice2.txt");
+//			Path data1 = Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice.txt");
+//			Path data2 = Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice2.txt");
 //			Files.copy(data1,data2);
 			
 			
 			//파일 이동 기능
-			Path data3 = Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\notice2.txt");
-			Path directory = Paths.get("D:\\memo\\Notice.txt");
+			Path data3 = Paths.get("C:\\Project\\Notebook\\Cheper1\\src\\Files\\Notice2.txt");
+			Path directory = Paths.get("C:\\memo\\Notice.txt");
 			Files.move(data3,directory);
 		} catch (Exception e) {
 			System.out.println(e);
