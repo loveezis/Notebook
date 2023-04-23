@@ -1,6 +1,7 @@
 package java_ex;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class lottoNum {
 
@@ -24,6 +25,7 @@ class bbbb {
 				
 			}
 		}	
+		Collections.sort(Num2);
 		System.out.printf("이번주 추첨번호 \n%s",Num2);
 	}
 }

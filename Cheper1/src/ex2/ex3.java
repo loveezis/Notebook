@@ -2,8 +2,12 @@ package ex2;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.Date;
 
 public class ex3 {
 
@@ -21,24 +25,42 @@ public class ex3 {
 
 class DataResult {
 
-	public void result() throws Exception {
-		try(
-		BufferedInputStream inputBuff = new BufferedInputStream(
-				new FileInputStream("C:\\sajin\\herin.jpg"));
-		BufferedOutputStream outputBuff = new BufferedOutputStream(
-				new FileOutputStream("C:\\sajin\\cuteherin.jpg"))){
+	public void result() {
+			Date todat = new Date();
+		try
+		(BufferedInputStream bufIn = new BufferedInputStream(new FileInputStream("C:\\sajin\\herinlv.jpg"));
+		BufferedOutputStream bufout = new BufferedOutputStream(new FileOutputStream("C:\\sajin\\"+todat.getTime()+".jpg"))){
 		
-		byte[] data = new byte[1024];
-		int length = 0;
+		byte[] data = new byte[bufIn.available()/100];
 		
-		while((length = inputBuff.read(data)) > 0 ) {
-			outputBuff.write(data,0,length);
+		int imgs = 0;
 			
+		while((imgs = bufIn.read(data)) > 0) {
+			
+			bufout.write(data,0,imgs);
 		}
 		}
 		catch (Exception e) {
+			System.out.println("오류");
 			e.printStackTrace();
 		}
+		
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
